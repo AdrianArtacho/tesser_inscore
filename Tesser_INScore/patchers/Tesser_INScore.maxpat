@@ -40,6 +40,43 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-198",
+					"linecount" : 2,
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 373.0, 51.0, 444.0, 35.0 ],
+					"text" : ";\rmax launchbrowser https://bitbucket.org/AdrianArtacho/tesser_inscore/src/master/"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 0.301961, 0.301961, 0.301961, 1.0 ],
+					"bgcolor2" : [ 0.301961, 0.301961, 0.301961, 1.0 ],
+					"bgfillcolor_angle" : 270.0,
+					"bgfillcolor_autogradient" : 0.0,
+					"bgfillcolor_color" : [ 0.470588235294118, 0.470588235294118, 0.470588235294118, 1.0 ],
+					"bgfillcolor_color1" : [ 0.301961, 0.301961, 0.301961, 1.0 ],
+					"bgfillcolor_color2" : [ 0.2, 0.2, 0.2, 1.0 ],
+					"bgfillcolor_proportion" : 0.5,
+					"bgfillcolor_type" : "color",
+					"gradient" : 1,
+					"id" : "obj-196",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 373.0, 15.0, 50.0, 22.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 337.0, 92.0, 49.0, 22.0 ],
+					"text" : "readme"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-194",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -9923,6 +9960,7 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"color" : [ 0.317647, 0.654902, 0.976471, 1.0 ],
@@ -15597,7 +15635,7 @@
 , 																			{
 																				"patchline" : 																				{
 																					"destination" : [ "obj-12", 0 ],
-																					"order" : 0,
+																					"order" : 2,
 																					"source" : [ "obj-35", 0 ]
 																				}
 
@@ -15613,7 +15651,7 @@
 , 																			{
 																				"patchline" : 																				{
 																					"destination" : [ "obj-6", 0 ],
-																					"order" : 2,
+																					"order" : 0,
 																					"source" : [ "obj-35", 0 ]
 																				}
 
@@ -16530,7 +16568,7 @@
 , 															{
 																"patchline" : 																{
 																	"destination" : [ "obj-28", 1 ],
-																	"midpoints" : [ 346.5, 153.0, 234.0, 153.0, 234.0, 269.0, 281.5, 269.0 ],
+																	"midpoints" : [ 346.5, 153.0, 234.0, 153.0, 234.0, 269.0, 261.0, 269.0 ],
 																	"source" : [ "obj-30", 0 ]
 																}
 
@@ -48930,7 +48968,7 @@
 									"maxclass" : "inlet",
 									"numinlets" : 0,
 									"numoutlets" : 1,
-									"outlettype" : [ "int" ],
+									"outlettype" : [ "bang" ],
 									"patching_rect" : [ 236.0, 310.0, 25.0, 25.0 ]
 								}
 
@@ -53987,6 +54025,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-198", 0 ],
+					"source" : [ "obj-196", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-324", 0 ],
 					"source" : [ "obj-2", 0 ]
 				}
@@ -54601,27 +54646,44 @@
 			}
  ],
 		"dependency_cache" : [ 			{
+				"name" : "CurrentClip.js",
+				"bootpath" : "~/Documents/Max 8/Projects/[TesserAkt]/Tesser_INScore/Tesser_INScore/code",
+				"patcherrelativepath" : "../code",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "SelectedClipName.js",
+				"bootpath" : "~/Documents/Max 8/Projects/[TesserAkt]/Tesser_INScore/Tesser_INScore/code",
+				"patcherrelativepath" : "../code",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "M4L.api.GetSelectedNotes.maxpat",
-				"bootpath" : "C74:/patchers/m4l/LiveAPI resources/abstractions",
+				"bootpath" : "~/Documents/Max 8/Projects/[TesserAkt]/Tesser_INScore/Tesser_INScore/patchers",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "M4L.api.GetSelectedTrackIndex.maxpat",
-				"bootpath" : "C74:/patchers/m4l/LiveAPI resources/abstractions",
+				"bootpath" : "~/Documents/Max 8/Projects/[TesserAkt]/Tesser_INScore/Tesser_INScore/patchers",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "M4L.api.RemoteMatchIdToIndex.maxpat",
-				"bootpath" : "C74:/patchers/m4l/LiveAPI resources/helpers",
+				"bootpath" : "~/Documents/Max 8/Projects/[TesserAkt]/Tesser_INScore/Tesser_INScore/patchers",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "divmod.maxpat",
-				"bootpath" : "/Users/Shared/Max 7/Packages/RTC-lib_71/patchers/Toolbox",
-				"patcherrelativepath" : "../../../../../../../../Shared/Max 7/Packages/RTC-lib_71/patchers/Toolbox",
+				"bootpath" : "~/Documents/Max 8/Projects/[TesserAkt]/Tesser_INScore/Tesser_INScore/patchers",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
