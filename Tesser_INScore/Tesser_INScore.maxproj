@@ -2,7 +2,7 @@
 	"name" : "Tesser_INScore",
 	"version" : 1,
 	"creationdate" : 3713456333,
-	"modificationdate" : 3713456874,
+	"modificationdate" : 3720150744,
 	"viewrect" : [ 25.0, 104.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -31,17 +31,34 @@
 			"divmod.maxpat" : 			{
 				"kind" : "patcher"
 			}
+,
+			"openTransport.maxpat" : 			{
+				"kind" : "patcher"
+			}
+,
+			"filePlayer.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
 
 		}
 ,
 		"code" : 		{
-			"SelectedClipName.js" : 			{
+			"CurrentClip.js" : 			{
 				"kind" : "javascript",
 				"local" : 1
 			}
 ,
-			"CurrentClip.js" : 			{
+			"SelectedClipName.js" : 			{
 				"kind" : "javascript",
+				"local" : 1
+			}
+
+		}
+,
+		"data" : 		{
+			"rawnotes.txt" : 			{
+				"kind" : "textfile",
 				"local" : 1
 			}
 
