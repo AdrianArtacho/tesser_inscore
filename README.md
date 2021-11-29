@@ -27,8 +27,3 @@ Here you can find more [information about the project](TesserAkt.md) and the [re
 
 ![Tesser_logo](https://docs.google.com/drawings/d/e/2PACX-1vT26NziYMaLrGHlvNspiJ9dOjXR6hZyVxrGwfkgV1MwvMTWtAWh5ZUqMsit5gSllXemcGajjddqfqnc/pub?w=131&h=129)
 
-
-### Who do I talk to? ###
-
-* Repo owner or admin
-* Other community or team contact
