@@ -20,11 +20,11 @@ By default, the name of the clip will be displayed on the screen.
 * (the toggle for "Automatic NEXT clip" should now be ON)
 * Set the global quantization to NONE
 
-### Contribution guidelines ###
+# TESSER environment #
 
-* Writing tests
-* Code review
-* Other guidelines
+This device is part of a larger *TESSER* environment.
+
+![Tesser_logo](https://docs.google.com/drawings/d/e/2PACX-1vT26NziYMaLrGHlvNspiJ9dOjXR6hZyVxrGwfkgV1MwvMTWtAWh5ZUqMsit5gSllXemcGajjddqfqnc/pub?w=131&h=129)
 
 ### Who do I talk to? ###
 
