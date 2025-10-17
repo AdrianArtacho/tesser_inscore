@@ -1,12 +1,12 @@
 This Patch is part of the [TESSER environment](https://bitbucket.org/AdrianArtacho/tesserakt/src/master/).
 
-![TTESS:Logo](https://bitbucket.org/AdrianArtacho/tesserakt/raw/HEAD/TESSER_logo.png)
+![TESS:Logo](https://bitbucket.org/AdrianArtacho/tesserakt/raw/HEAD/TESSER_logo.png)
 
 # Tesser_INScore
 
 This M4L device processes messages send to (and received from) INScore, anywhere in the local network.
 
-![TESS:inscore](https://docs.google.com/drawings/d/e/2PACX-1vSutjVsDP_6-N2fCWhv6sHEg04w0Dkbz895ZwPqeKSgd_xx4S2CwQumN6KroiIZoN_Mi7Pe8eqRMZdB/pub?w=941&h=142)
+![TESS:inscore](img/gui.png)
 
 ## MODUS 1: 1 Clip / 1 Note
 
